@@ -20,16 +20,4 @@ class PersonInfoController: UIViewController {
         emailLabel.text = "Email: \(contact.email)"
         navigationItem.title = "\(contact.name) \(contact.surname)"
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
