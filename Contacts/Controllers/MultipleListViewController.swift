@@ -40,11 +40,11 @@ extension MultipleListViewController {
         var content = cell.defaultContentConfiguration()
         let contact = contacts[indexPath.row]
         content.text = contact.phoneNumber
+        content.secondaryText = contact.email
         content.image = UIImage(systemName: "phone")
         cell.contentConfiguration = content
-    
-        return cell
         
+        return cell
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {

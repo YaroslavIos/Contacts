@@ -125,6 +125,7 @@
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
+                        <sections/>
                         <connections>
                             <outlet property="dataSource" destination="n0v-2u-qPe" id="7BU-KH-HUD"/>
                             <outlet property="delegate" destination="n0v-2u-qPe" id="BRy-Ac-bNk"/>

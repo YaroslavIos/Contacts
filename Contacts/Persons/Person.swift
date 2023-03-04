@@ -5,7 +5,9 @@
 //  Created by Ярослав Любиченко on 2.3.2023.
 //
 
-struct Person {
+import Foundation
+
+struct Person: Hashable {
     let name: String
     let surname: String
     let email: String

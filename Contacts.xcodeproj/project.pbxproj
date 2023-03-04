@@ -64,19 +64,59 @@
 		C2BDCA0A29B0BE0B00BD4FFB /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
-				C2BDCA0B29B0BE0B00BD4FFB /* AppDelegate.swift */,
-				C2BDCA0D29B0BE0B00BD4FFB /* SceneDelegate.swift */,
-				C2BDCA1129B0BE0B00BD4FFB /* Main.storyboard */,
-				C2BDCA2929B34A1700BD4FFB /* MultipleListViewController.swift */,
-				C2BDCA2729B20CE800BD4FFB /* PersonInfoController.swift */,
-				C2BDCA1F29B0BFF500BD4FFB /* ContactsListViewController.swift */,
-				C2BDCA2329B1264B00BD4FFB /* Person.swift */,
-				C2BDCA2529B12A3200BD4FFB /* Services.swift */,
+				C2BDCA2D29B3E0F100BD4FFB /* App */,
+				C2BDCA2E29B3E10400BD4FFB /* Storyboards */,
+				C2BDCA2F29B3E12A00BD4FFB /* Controllers */,
+				C2BDCA3029B3E13D00BD4FFB /* Persons */,
+				C2BDCA3129B3E14A00BD4FFB /* Services */,
 				C2BDCA1429B0BE0D00BD4FFB /* Assets.xcassets */,
-				C2BDCA1629B0BE0D00BD4FFB /* LaunchScreen.storyboard */,
 				C2BDCA1929B0BE0D00BD4FFB /* Info.plist */,
 			);
 			path = Contacts;
+			sourceTree = "<group>";
+		};
+		C2BDCA2D29B3E0F100BD4FFB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C2BDCA0B29B0BE0B00BD4FFB /* AppDelegate.swift */,
+				C2BDCA0D29B0BE0B00BD4FFB /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C2BDCA2E29B3E10400BD4FFB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C2BDCA1129B0BE0B00BD4FFB /* Main.storyboard */,
+				C2BDCA1629B0BE0D00BD4FFB /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		C2BDCA2F29B3E12A00BD4FFB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C2BDCA2929B34A1700BD4FFB /* MultipleListViewController.swift */,
+				C2BDCA2729B20CE800BD4FFB /* PersonInfoController.swift */,
+				C2BDCA1F29B0BFF500BD4FFB /* ContactsListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C2BDCA3029B3E13D00BD4FFB /* Persons */ = {
+			isa = PBXGroup;
+			children = (
+				C2BDCA2329B1264B00BD4FFB /* Person.swift */,
+			);
+			path = Persons;
+			sourceTree = "<group>";
+		};
+		C2BDCA3129B3E14A00BD4FFB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C2BDCA2529B12A3200BD4FFB /* Services.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

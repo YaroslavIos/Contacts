@@ -5,6 +5,8 @@
 //  Created by Ярослав Любиченко on 2.3.2023.
 //
 
+import Foundation
+
 class DataStore {
     let names = [
         "John",
